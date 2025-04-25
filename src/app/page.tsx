@@ -1,5 +1,12 @@
-import Image from "next/image";
+import Home from "@/components/Home";
 
-export default function Home() {
-  return <div>test</div>;
+import MapData from "@/components/MapData";
+
+export default function Page() {
+  return (
+    <>
+      <Home />
+      <MapData />
+    </>
+  );
 }
